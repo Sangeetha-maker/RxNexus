@@ -1,0 +1,35 @@
+name: Deploy RXNexus Backend to Azure App Service
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python version
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Create and activate virtual environment
+      run: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Zip artifact for deployment
+      run: |
+        zip -r release.zip backend analytics models data/curated rag app.py startup.sh requirements.txt .env -x "*.pyc" "__pycache__/*"
+
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: 'rxnexus-backend-api'
+        package: release.zip
