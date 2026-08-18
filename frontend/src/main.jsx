@@ -1177,44 +1177,50 @@ function App() {
                   <span className="badge warning">SYNTHETIC LONGITUDINAL DATASET</span>
                 </div>
 
-                <div className="data-table-container">
-                  <table className="rich-table">
+                <div className="audit-table-wrapper">
+                  <table className="rich-table" style={{ tableLayout: 'fixed', width: '100%' }}>
                     <thead>
                       <tr>
-                        <th>Chronic Medication / Class</th>
-                        <th>Patient Cohort Count</th>
-                        <th>Average Refill Gap</th>
-                        <th>High-Gap Beneficiaries (&gt;15 Days)</th>
-                        <th>Adherence Risk Level</th>
-                        <th>Star Rating Vulnerability</th>
+                        <th style={{ width: '32%' }}>Chronic Medication / Class</th>
+                        <th style={{ width: '13%' }}>Cohort Count</th>
+                        <th style={{ width: '13%' }}>Avg Refill Gap</th>
+                        <th style={{ width: '14%' }}>High-Gap Patients</th>
+                        <th style={{ width: '14%' }}>Adherence Risk</th>
+                        <th style={{ width: '14%' }}>Star Measure Impact</th>
                       </tr>
                     </thead>
                     <tbody>
                       {(adherenceData?.top_adherence_risk_medications || [
-                        { medication_name: 'Atorvastatin 20mg (Statin Cohort)', patient_count: 1420, avg_gap: 28.5, high_gap_patients: 410 },
-                        { medication_name: 'Metformin 500mg (Diabetes Cohort)', patient_count: 1250, avg_gap: 24.2, high_gap_patients: 320 },
-                        { medication_name: 'Lisinopril 10mg (RAS Antagonist Cohort)', patient_count: 1100, avg_gap: 22.0, high_gap_patients: 280 },
-                        { medication_name: 'Empagliflozin (SGLT2 Inhibitor)', patient_count: 650, avg_gap: 34.0, high_gap_patients: 215 },
-                        { medication_name: 'Amlodipine 5mg (Antihypertensive)', patient_count: 890, avg_gap: 19.5, high_gap_patients: 160 }
-                      ]).map((m, idx) => (
-                        <tr key={idx}>
-                          <td><b>{m.medication_name}</b></td>
-                          <td>{formatNumber(m.patient_count)} patients</td>
-                          <td><b>{m.avg_gap} Days</b></td>
-                          <td><span className="badge rose">{m.high_gap_patients} Patients</span></td>
-                          <td>
-                            <span className={`badge ${m.avg_gap > 25 ? 'rose' : m.avg_gap > 20 ? 'amber' : 'emerald'}`}>
-                              {m.avg_gap > 25 ? 'High Abandonment Risk' : 'Moderate Adherence Gap'}
-                            </span>
-                          </td>
-                          <td>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                              <AlertTriangle size={14} color={m.avg_gap > 25 ? 'var(--rose-500)' : 'var(--amber-500)'} />
-                              <span style={{ fontSize: '12px', fontWeight: '600' }}>Part D Star Measure At Risk</span>
-                            </div>
-                          </td>
-                        </tr>
-                      ))}
+                        { chronic_cohort: 'Cardiovascular: Statin Therapy (PDC-STA)', patient_count: 1420, avg_gap: 28.5, high_gap_patients: 410 },
+                        { chronic_cohort: 'Diabetes: Glycemic Management (PDC-GLY)', patient_count: 1250, avg_gap: 24.2, high_gap_patients: 320 },
+                        { chronic_cohort: 'Hypertension: RAS Antagonists (PDC-RASA)', patient_count: 1100, avg_gap: 22.0, high_gap_patients: 280 },
+                        { chronic_cohort: 'Anticoagulants: DOAC Stroke Prevention', patient_count: 650, avg_gap: 26.4, high_gap_patients: 185 },
+                        { chronic_cohort: 'Respiratory: Asthma / COPD Maintenance', patient_count: 890, avg_gap: 19.5, high_gap_patients: 160 }
+                      ]).map((m, idx) => {
+                        const name = m.chronic_cohort || m.medication_name || 'Chronic Maintenance Therapy';
+                        const avgGap = m.avg_gap || 22.0;
+                        return (
+                          <tr key={idx}>
+                            <td style={{ wordBreak: 'break-word', whiteSpace: 'normal' }}><b>{name}</b></td>
+                            <td>{formatNumber(m.patient_count)} patients</td>
+                            <td><b>{avgGap} Days</b></td>
+                            <td><span className="badge rose">{m.high_gap_patients || 12} Patients</span></td>
+                            <td>
+                              <span className={`badge ${avgGap > 25 ? 'rose' : avgGap > 20 ? 'amber' : 'emerald'}`}>
+                                {avgGap > 25 ? 'High Risk (<80% PDC)' : 'Moderate Gap'}
+                              </span>
+                            </td>
+                            <td>
+                              <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                <AlertTriangle size={13} color={avgGap > 25 ? 'var(--rose-500)' : 'var(--amber-500)'} />
+                                <span style={{ fontSize: '11.5px', fontWeight: '600', color: avgGap > 25 ? 'var(--rose-500)' : 'var(--amber-600)' }}>
+                                  {avgGap > 25 ? 'CMS Measure At Risk' : 'Standard Monitoring'}
+                                </span>
+                              </div>
+                            </td>
+                          </tr>
+                        );
+                      })}
                     </tbody>
                   </table>
                 </div>
