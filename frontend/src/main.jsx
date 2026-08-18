@@ -523,6 +523,9 @@ function App() {
           <li className={`nav-item ${activeTab === 'opportunities' ? 'active' : ''}`} onClick={() => setActiveTab('opportunities')}>
             <Layers size={18} /> <span>2. Opportunities</span>
           </li>
+          <li className={`nav-item ${activeTab === 'audit' ? 'active' : ''}`} onClick={() => { setActiveTab('audit'); setSelectedOpp(null); }}>
+            <UserCheck size={18} /> <span>3. Review / Audit</span>
+          </li>
           <li className={`nav-item ${activeTab === 'dashboard' ? 'active' : ''}`} onClick={() => { setActiveTab('dashboard'); setSelectedOpp(null); }}>
             <LayoutDashboard size={18} /> <span>Executive Dashboard</span>
           </li>
@@ -535,10 +538,8 @@ function App() {
           <li className={`nav-item ${activeTab === 'assistant' ? 'active' : ''}`} onClick={() => setActiveTab('assistant')}>
             <Bot size={18} /> <span>AI Copilot</span>
           </li>
-          <li className={`nav-item ${activeTab === 'audit' ? 'active' : ''}`} onClick={() => { setActiveTab('audit'); setSelectedOpp(null); }}>
-            <UserCheck size={18} /> <span>Review / Audit</span>
-          </li>
         </ul>
+
 
         <div style={{ padding: '16px', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
           <div style={{ fontSize: '0.72rem', color: '#94a3b8', lineHeight: 1.4 }}>
