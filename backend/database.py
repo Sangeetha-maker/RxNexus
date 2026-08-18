@@ -5,6 +5,7 @@ and human-in-the-loop audit logging in PostgreSQL.
 """
 import os
 import time
+from typing import Dict, Any, List, Optional
 try:
     import psycopg2
     from psycopg2.extras import RealDictCursor
@@ -13,6 +14,7 @@ except ImportError:
     psycopg2 = None
     RealDictCursor = None
     HAS_PSYCOPG2 = False
+
 
 from dotenv import load_dotenv
 from pathlib import Path
