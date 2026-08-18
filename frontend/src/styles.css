@@ -1382,4 +1382,98 @@ tbody tr:hover, .selected-row { background: #f4faff; }
 .progress-fill-mini.emerald { background: #059669; }
 .progress-fill-mini.primary { background: #0284c7; }
 
+/* AI Copilot Rich Markdown & Table Styling */
+.assistant-chat-bubble {
+  background: #ffffff;
+  color: #0f172a;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.chat-section-header {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0369a1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 16px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #e0f2fe;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chat-section-header:first-child {
+  margin-top: 0;
+}
+
+.chat-table-wrapper {
+  margin: 12px 0;
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.chat-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  background: #ffffff;
+}
+
+.chat-table th {
+  background: #f1f5f9;
+  color: #334155;
+  font-weight: 700;
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid #cbd5e1;
+  white-space: nowrap;
+}
+
+.chat-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #1e293b;
+  white-space: nowrap;
+}
+
+.chat-table tr:hover td {
+  background: #f8fafc;
+}
+
+.chat-insight-card {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-left: 4px solid #0284c7;
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  margin: 12px 0;
+  font-size: 13px;
+  color: #0369a1;
+  font-weight: 500;
+}
+
+.chat-list-item {
+  margin: 6px 0;
+  padding-left: 4px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.5;
+}
+
+.chat-list-dot {
+  color: #0284c7;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+
 

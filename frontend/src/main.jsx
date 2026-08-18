@@ -79,6 +79,153 @@ const OBJECTIVE_PRESETS = {
   }
 };
 
+const renderInlineMarkdown = (text) => {
+  if (!text) return null;
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={idx}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
+function FormattedAssistantMessage({ content }) {
+  if (!content) return null;
+
+  // Preprocess text to format clean newlines around markdown blocks
+  let formatted = content
+    .replace(/\s*(###\s+[A-Za-z0-9\s/_\-:]+)/g, '\n$1\n')
+    .replace(/\s*(\|\s*[:\-\s|]+\|)/g, '\n$1\n')
+    .replace(/\s*(\|\s*\*\*[A-Z0-9\s/_\-]+\*\*)/g, '\n$1')
+    .replace(/\s*(\*\s+\*\*)/g, '\n* **')
+    .replace(/\s*(\d+\.\s+\*\*)/g, '\n$1');
+
+  const lines = formatted.split('\n');
+  const elements = [];
+  let inTable = false;
+  let tableHeader = [];
+  let tableRows = [];
+
+  const flushTable = () => {
+    if (tableHeader.length > 0 || tableRows.length > 0) {
+      elements.push(
+        <div key={`tbl-${elements.length}`} className="chat-table-wrapper">
+          <table className="chat-table">
+            {tableHeader.length > 0 && (
+              <thead>
+                <tr>
+                  {tableHeader.map((th, i) => (
+                    <th key={i}>{renderInlineMarkdown(th.trim())}</th>
+                  ))}
+                </tr>
+              </thead>
+            )}
+            <tbody>
+              {tableRows.map((row, rIdx) => (
+                <tr key={rIdx}>
+                  {row.map((cell, cIdx) => (
+                    <td key={cIdx}>{renderInlineMarkdown(cell.trim())}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+      tableHeader = [];
+      tableRows = [];
+    }
+    inTable = false;
+  };
+
+  for (let i = 0; i < lines.length; i++) {
+    const rawLine = lines[i];
+    const trimmed = rawLine.trim();
+
+    if (!trimmed) {
+      if (inTable) flushTable();
+      continue;
+    }
+
+    // Check if table row
+    if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+      inTable = true;
+      const cells = trimmed.split('|').slice(1, -1);
+      if (cells.every(c => /^[:\-\s]+$/.test(c))) {
+        continue;
+      }
+      if (tableHeader.length === 0) {
+        tableHeader = cells;
+      } else {
+        tableRows.push(cells);
+      }
+      continue;
+    } else if (inTable) {
+      flushTable();
+    }
+
+    // Section Headers (###)
+    if (trimmed.startsWith('###')) {
+      const headerText = trimmed.replace(/^###\s*/, '');
+      elements.push(
+        <div key={`h-${i}`} className="chat-section-header">
+          <Sparkles size={14} color="#0284c7" />
+          <span>{headerText}</span>
+        </div>
+      );
+      continue;
+    }
+
+    // Key Insights Box
+    if (trimmed.startsWith('> ') || trimmed.toUpperCase().includes('KEY INSIGHT') || trimmed.toUpperCase().includes('BUSINESS RELEVANCE')) {
+      elements.push(
+        <div key={`ins-${i}`} className="chat-insight-card">
+          💡 {renderInlineMarkdown(trimmed.replace(/^>\s*/, ''))}
+        </div>
+      );
+      continue;
+    }
+
+    // Bullet points (* or -)
+    if (trimmed.startsWith('* ') || trimmed.startsWith('- ')) {
+      elements.push(
+        <div key={`li-${i}`} className="chat-list-item">
+          <span className="chat-list-dot">•</span>
+          <div>{renderInlineMarkdown(trimmed.slice(2))}</div>
+        </div>
+      );
+      continue;
+    }
+
+    // Numbered List (1. 2. 3.)
+    const numMatch = trimmed.match(/^(\d+)\.\s*(.*)/);
+    if (numMatch) {
+      elements.push(
+        <div key={`num-${i}`} className="chat-list-item">
+          <span className="chat-list-dot" style={{ fontSize: '11px', background: '#e0f2fe', borderRadius: '50%', width: '18px', height: '18px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', color: '#0369a1' }}>{numMatch[1]}</span>
+          <div>{renderInlineMarkdown(numMatch[2])}</div>
+        </div>
+      );
+      continue;
+    }
+
+    // Standard Paragraph
+    elements.push(
+      <p key={`p-${i}`} style={{ margin: '6px 0', lineHeight: 1.55 }}>
+        {renderInlineMarkdown(trimmed)}
+      </p>
+    );
+  }
+
+  if (inTable) {
+    flushTable();
+  }
+
+  return <div>{elements}</div>;
+}
+
+
 function App() {
   // Navigation
   const [activeTab, setActiveTab] = useState('setup'); // 'setup' is the controlled entry point per PDF
@@ -1106,16 +1253,23 @@ function App() {
               <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '14px', padding: '10px 0' }}>
                 {chatMessages.map((msg, i) => (
                   <div key={i} style={{ alignSelf: msg.sender === 'user' ? 'flex-end' : 'flex-start', maxWidth: '85%' }}>
-                    <div style={{
-                      padding: '12px 16px',
-                      borderRadius: '10px',
-                      background: msg.sender === 'user' ? 'var(--primary)' : '#f1f5f9',
-                      color: msg.sender === 'user' ? '#fff' : '#0f172a',
-                      fontSize: '13.5px',
-                      lineHeight: 1.5
-                    }}>
-                      {msg.text}
-                    </div>
+                    {msg.sender === 'user' ? (
+                      <div style={{
+                        padding: '12px 16px',
+                        borderRadius: '10px',
+                        background: 'var(--primary)',
+                        color: '#fff',
+                        fontSize: '13.5px',
+                        lineHeight: 1.5
+                      }}>
+                        {msg.text}
+                      </div>
+                    ) : (
+                      <div className="assistant-chat-bubble">
+                        <FormattedAssistantMessage content={msg.text} />
+                      </div>
+                    )}
+
                     {msg.citations && (
                       <div style={{ marginTop: '6px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
                         {msg.citations.map((c, ci) => (
