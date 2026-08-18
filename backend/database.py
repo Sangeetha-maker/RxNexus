@@ -5,9 +5,15 @@ and human-in-the-loop audit logging in PostgreSQL.
 """
 import os
 import time
-from typing import Dict, Any, List, Optional
-import psycopg2
-from psycopg2.extras import RealDictCursor
+try:
+    import psycopg2
+    from psycopg2.extras import RealDictCursor
+    HAS_PSYCOPG2 = True
+except ImportError:
+    psycopg2 = None
+    RealDictCursor = None
+    HAS_PSYCOPG2 = False
+
 from dotenv import load_dotenv
 from pathlib import Path
 
@@ -20,14 +26,24 @@ DB_URL = os.getenv(
 )
 
 def get_connection():
-    """Returns a new psycopg2 connection with dictionary cursor."""
+    """Returns a new psycopg2 connection with dictionary cursor if available."""
+    if not HAS_PSYCOPG2 or psycopg2 is None:
+        raise ConnectionError("psycopg2 is not installed or available.")
     return psycopg2.connect(DB_URL, cursor_factory=RealDictCursor)
 
 def get_database_status() -> Dict[str, Any]:
     """Tests connection to PostgreSQL and returns latency and table metrics."""
+    if not HAS_PSYCOPG2 or psycopg2 is None:
+        return {
+            "status": "offline",
+            "message": "PostgreSQL driver (psycopg2) not loaded. Operating in high-speed Parquet/DuckDB fallback mode.",
+            "latency_ms": 0.0,
+            "counts": {}
+        }
     start_time = time.time()
     try:
         conn = get_connection()
+
         latency_ms = round((time.time() - start_time) * 1000, 2)
         with conn.cursor() as cur:
             # Query server version

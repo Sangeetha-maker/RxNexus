@@ -263,7 +263,8 @@ CLINICAL_THERAPEUTIC_CATALOG: Dict[str, Dict[str, Any]] = {
         "primary_tier": 1,
         "primary_savings_pct": 90.0,
         "primary_restrictions": "Step Therapy (Anti-TNF / DMARD trial)",
-        "primary_guidance": "Require failure of $\ge 1$ anti-TNF blocker per FDA boxed warning before JAK inhibitor initiation.",
+        "primary_guidance": "Require failure of >= 1 anti-TNF blocker per FDA boxed warning before JAK inhibitor initiation.",
+
         "primary_label": "Immunology step-therapy protocol review."
     },
 
