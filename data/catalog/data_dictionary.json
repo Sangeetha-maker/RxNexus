@@ -1,0 +1,3791 @@
+[
+  {
+    "dataset_name": "Indication_Based_Coverage_Formulary_File__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/Indication_Based_Coverage_Formulary_File__202607311.csv",
+    "column_name": "CONTRACT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "Indication_Based_Coverage_Formulary_File__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/Indication_Based_Coverage_Formulary_File__202607311.csv",
+    "column_name": "PLAN_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "Indication_Based_Coverage_Formulary_File__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/Indication_Based_Coverage_Formulary_File__202607311.csv",
+    "column_name": "RXCUI",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "Indication_Based_Coverage_Formulary_File__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/Indication_Based_Coverage_Formulary_File__202607311.csv",
+    "column_name": "DISEASE",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "FORMULARY_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "FORMULARY_VERSION",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "CONTRACT_YEAR",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "RXCUI",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "NDC",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "TIER_LEVEL_VALUE",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "QUANTITY_LIMIT_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "QUANTITY_LIMIT_AMOUNT",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "QUANTITY_LIMIT_DAYS",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "PRIOR_AUTHORIZATION_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "STEP_THERAPY_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "basic_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/basic_drugs_formulary_file__202607311.csv",
+    "column_name": "SELECTED_DRUG_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "CONTRACT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "PLAN_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "SEGMENT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COVERAGE_LEVEL",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "TIER",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "DAYS_SUPPLY",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_TYPE_PREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_AMT_PREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_MIN_AMT_PREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_MAX_AMT_PREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_TYPE_NONPREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_AMT_NONPREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_MIN_AMT_NONPREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_MAX_AMT_NONPREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_TYPE_MAIL_PREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_AMT_MAIL_PREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_MIN_AMT_MAIL_PREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_MAX_AMT_MAIL_PREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_TYPE_MAIL_NONPREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_AMT_MAIL_NONPREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_MIN_AMT_MAIL_NONPREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "COST_MAX_AMT_MAIL_NONPREF",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "TIER_SPECIALTY_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/beneficiary_cost_file__202607311.csv",
+    "column_name": "DED_APPLIES_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "CONTRACT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "PLAN_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "RXCUI",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "TIER",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "QUANTITY_LIMIT_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "QUANTITY_LIMIT_AMOUNT",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "QUANTITY_LIMIT_DAYS",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "PRIOR_AUTH_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "STEP_THERAPY_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "excluded_drugs_formulary_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/excluded_drugs_formulary_file__202607311.csv",
+    "column_name": "CAPPED_BENEFIT_YN",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "geographic_locator_file_202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/geographic_locator_file_202607311.csv",
+    "column_name": "COUNTY_CODE",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "geographic_locator_file_202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/geographic_locator_file_202607311.csv",
+    "column_name": "STATENAME",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "geographic_locator_file_202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/geographic_locator_file_202607311.csv",
+    "column_name": "COUNTY",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "geographic_locator_file_202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/geographic_locator_file_202607311.csv",
+    "column_name": "MA_REGION_CODE",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "geographic_locator_file_202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/geographic_locator_file_202607311.csv",
+    "column_name": "MA_REGION",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "geographic_locator_file_202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/geographic_locator_file_202607311.csv",
+    "column_name": "PDP_REGION_CODE",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "geographic_locator_file_202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/geographic_locator_file_202607311.csv",
+    "column_name": "PDP_REGION",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "CONTRACT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "PLAN_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "SEGMENT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "TIER",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "DAYS_SUPPLY",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "copay_amt_pref_insln",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "copay_amt_nonpref_insln",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "copay_amt_mail_pref_insln",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "copay_amt_mail_nonpref_insln",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "coin_amt_pref_insln",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "coin_amt_nonpref_insln",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "coin_amt_mail_pref_insln",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "insulin_beneficiary_cost_file__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/insulin_beneficiary_cost_file__202607311.csv",
+    "column_name": "coin_amt_mail_nonpref_insln",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "CONTRACT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "PLAN_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "SEGMENT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "PHARMACY_NUMBER",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "PHARMACY_ZIPCODE",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "PREFERRED_STATUS_RETAIL",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "PREFERRED_STATUS_MAIL",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "PHARMACY_RETAIL",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "PHARMACY_MAIL",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "IN_AREA_FLAG",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "BRAND_DISPENSING_FEE_30",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "BRAND_DISPENSING_FEE_60",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "BRAND_DISPENSING_FEE_90",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "GENERIC_DISPENSING_FEE_30",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "GENERIC_DISPENSING_FEE_60",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "GENERIC_DISPENSING_FEE_90",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "SELECTED_DISPENSING_FEE_30",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "SELECTED_DISPENSING_FEE_60",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "pharmacy_network_data_500k",
+    "source_file": "data/raw/dataset_1_cms_formulary/pharmacy_network_data_500k.csv",
+    "column_name": "SELECTED_DISPENSING_FEE_90",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "CONTRACT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "PLAN_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "SEGMENT_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "CONTRACT_NAME",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "PLAN_NAME",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "FORMULARY_ID",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "PREMIUM",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "DEDUCTIBLE",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "MA_REGION_CODE",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "PDP_REGION_CODE",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "STATE",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "COUNTY_CODE",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "SNP",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "plan_information__202607311",
+    "source_file": "data/raw/dataset_1_cms_formulary/plan_information__202607311.csv",
+    "column_name": "PLAN_SUPPRESSED_YN",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Medicare Part D Formulary"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Prscrbr_NPI",
+    "is_identifier": true,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Prscrbr_Last_Org_Name",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Prscrbr_First_Name",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Prscrbr_City",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Prscrbr_State_Abrvtn",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Prscrbr_State_FIPS",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Prscrbr_Type",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Prscrbr_Type_Src",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Brnd_Name",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Gnrc_Name",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Tot_Clms",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Tot_30day_Fills",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Tot_Day_Suply",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Tot_Drug_Cst",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "Tot_Benes",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "GE65_Sprsn_Flag",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "GE65_Tot_Clms",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "GE65_Tot_30day_Fills",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "GE65_Tot_Drug_Cst",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "GE65_Tot_Day_Suply",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "GE65_Bene_Sprsn_Flag",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P04_V10_DY24_NPIBN",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv",
+    "column_name": "GE65_Tot_Benes",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Data Dictionary",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Data Dictionary.csv",
+    "column_name": "column0",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Data Dictionary",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Data Dictionary.csv",
+    "column_name": "column1",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Data Dictionary",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Data Dictionary.csv",
+    "column_name": "column2",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Medicare Part D Drug Lists",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Medicare Part D Drug Lists.csv",
+    "column_name": "Medicare Part D Prescriber PUF Drug List Summary, Calendar Years 2013 - 2024",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Methods",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_DLSum(3)__Methods.csv",
+    "column_name": "Medicare Part D Prescriber PUF Drug List Summary, Calendar Years 2013 - 2024",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data Dictionary",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data Dictionary.csv",
+    "column_name": "Part D Prescriber Grand Totals by Calendar Year, Calendar Years 2013 - 2024",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "\"Part D Prescriber Grand Totals by Calendar Year",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "Calendar Years 2013 - 2024\"",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column02",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column03",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column04",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column05",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column06",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column07",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column08",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column09",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column10",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column11",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column12",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column13",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column14",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column15",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column16",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column17",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column18",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column19",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column20",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column21",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column22",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column23",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column24",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column25",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column26",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column27",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column28",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column29",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column30",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column31",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Data.csv",
+    "column_name": "column32",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Methods",
+    "source_file": "data/raw/dataset_2_prescriber_utilization/MUP_DPR_RY26_P06_V10_DYT24_HLSum(3)__Methods.csv",
+    "column_name": "Part D Prescriber Grand Totals by Calendar Year, Calendar Years 2013 - 2024",
+    "is_identifier": false,
+    "is_synthetic": false,
+    "missing_pct_sample": "0%",
+    "source_group": "CMS Part D Prescriber Utilization"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "START",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "STOP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "SYSTEM",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "TYPE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "CATEGORY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "REACTION1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "DESCRIPTION1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "SEVERITY1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "REACTION2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "DESCRIPTION2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "allergies",
+    "source_file": "data/raw/dataset_3_synthea/allergies.csv",
+    "column_name": "SEVERITY2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "Id",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "START",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "STOP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "REASONCODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "careplans",
+    "source_file": "data/raw/dataset_3_synthea/careplans.csv",
+    "column_name": "REASONDESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "Id",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "PATIENTID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "PROVIDERID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "PRIMARYPATIENTINSURANCEID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "SECONDARYPATIENTINSURANCEID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DEPARTMENTID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "PATIENTDEPARTMENTID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DIAGNOSIS1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DIAGNOSIS2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DIAGNOSIS3",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DIAGNOSIS4",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DIAGNOSIS5",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DIAGNOSIS6",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DIAGNOSIS7",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "DIAGNOSIS8",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "REFERRINGPROVIDERID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "APPOINTMENTID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "CURRENTILLNESSDATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "SERVICEDATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "SUPERVISINGPROVIDERID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "STATUS1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "STATUS2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "STATUSP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "OUTSTANDING1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "OUTSTANDING2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "OUTSTANDINGP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "LASTBILLEDDATE1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "LASTBILLEDDATE2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "LASTBILLEDDATEP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "HEALTHCARECLAIMTYPEID1",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims",
+    "source_file": "data/raw/dataset_3_synthea/claims.csv",
+    "column_name": "HEALTHCARECLAIMTYPEID2",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "ID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "CLAIMID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "CHARGEID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "PATIENTID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "TYPE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "AMOUNT",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "METHOD",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "FROMDATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "TODATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "PLACEOFSERVICE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "PROCEDURECODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "MODIFIER1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "MODIFIER2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "DIAGNOSISREF1",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "DIAGNOSISREF2",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "DIAGNOSISREF3",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "DIAGNOSISREF4",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "UNITS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "DEPARTMENTID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "NOTES",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "UNITAMOUNT",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "TRANSFEROUTID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "TRANSFERTYPE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "PAYMENTS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "ADJUSTMENTS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "TRANSFERS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "OUTSTANDING",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "APPOINTMENTID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "LINENOTE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "PATIENTINSURANCEID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "FEESCHEDULEID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "PROVIDERID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "claims_transactions",
+    "source_file": "data/raw/dataset_3_synthea/claims_transactions.csv",
+    "column_name": "SUPERVISINGPROVIDERID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "conditions",
+    "source_file": "data/raw/dataset_3_synthea/conditions.csv",
+    "column_name": "START",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "conditions",
+    "source_file": "data/raw/dataset_3_synthea/conditions.csv",
+    "column_name": "STOP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "conditions",
+    "source_file": "data/raw/dataset_3_synthea/conditions.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "conditions",
+    "source_file": "data/raw/dataset_3_synthea/conditions.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "conditions",
+    "source_file": "data/raw/dataset_3_synthea/conditions.csv",
+    "column_name": "SYSTEM",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "conditions",
+    "source_file": "data/raw/dataset_3_synthea/conditions.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "conditions",
+    "source_file": "data/raw/dataset_3_synthea/conditions.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "devices",
+    "source_file": "data/raw/dataset_3_synthea/devices.csv",
+    "column_name": "START",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "devices",
+    "source_file": "data/raw/dataset_3_synthea/devices.csv",
+    "column_name": "STOP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "devices",
+    "source_file": "data/raw/dataset_3_synthea/devices.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "devices",
+    "source_file": "data/raw/dataset_3_synthea/devices.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "devices",
+    "source_file": "data/raw/dataset_3_synthea/devices.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "devices",
+    "source_file": "data/raw/dataset_3_synthea/devices.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "devices",
+    "source_file": "data/raw/dataset_3_synthea/devices.csv",
+    "column_name": "UDI",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "Id",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "START",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "STOP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "ORGANIZATION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "PROVIDER",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "PAYER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "ENCOUNTERCLASS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "BASE_ENCOUNTER_COST",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "TOTAL_CLAIM_COST",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "PAYER_COVERAGE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "REASONCODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "encounters",
+    "source_file": "data/raw/dataset_3_synthea/encounters.csv",
+    "column_name": "REASONDESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "Id",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "DATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "SERIES_UID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "BODYSITE_CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "BODYSITE_DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "MODALITY_CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "MODALITY_DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "INSTANCE_UID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "SOP_CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "SOP_DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "imaging_studies",
+    "source_file": "data/raw/dataset_3_synthea/imaging_studies.csv",
+    "column_name": "PROCEDURE_CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "immunizations",
+    "source_file": "data/raw/dataset_3_synthea/immunizations.csv",
+    "column_name": "DATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "immunizations",
+    "source_file": "data/raw/dataset_3_synthea/immunizations.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "immunizations",
+    "source_file": "data/raw/dataset_3_synthea/immunizations.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "immunizations",
+    "source_file": "data/raw/dataset_3_synthea/immunizations.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "immunizations",
+    "source_file": "data/raw/dataset_3_synthea/immunizations.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "immunizations",
+    "source_file": "data/raw/dataset_3_synthea/immunizations.csv",
+    "column_name": "BASE_COST",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "START",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "STOP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "PAYER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "BASE_COST",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "PAYER_COVERAGE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "DISPENSES",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "TOTALCOST",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "REASONCODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "medications",
+    "source_file": "data/raw/dataset_3_synthea/medications.csv",
+    "column_name": "REASONDESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "DATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "CATEGORY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "VALUE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "UNITS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "observations",
+    "source_file": "data/raw/dataset_3_synthea/observations.csv",
+    "column_name": "TYPE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "Id",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "NAME",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "ADDRESS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "CITY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "STATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "ZIP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "LAT",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "LON",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "PHONE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "REVENUE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "organizations",
+    "source_file": "data/raw/dataset_3_synthea/organizations.csv",
+    "column_name": "UTILIZATION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "Id",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "BIRTHDATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "DEATHDATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "SSN",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "DRIVERS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "PASSPORT",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "PREFIX",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "FIRST",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "MIDDLE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "LAST",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "SUFFIX",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "MAIDEN",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "MARITAL",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "RACE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "ETHNICITY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "GENDER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "BIRTHPLACE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "ADDRESS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "CITY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "STATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "COUNTY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "FIPS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "ZIP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "LAT",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "LON",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "HEALTHCARE_EXPENSES",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "HEALTHCARE_COVERAGE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "patients",
+    "source_file": "data/raw/dataset_3_synthea/patients.csv",
+    "column_name": "INCOME",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payer_transitions",
+    "source_file": "data/raw/dataset_3_synthea/payer_transitions.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payer_transitions",
+    "source_file": "data/raw/dataset_3_synthea/payer_transitions.csv",
+    "column_name": "MEMBERID",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payer_transitions",
+    "source_file": "data/raw/dataset_3_synthea/payer_transitions.csv",
+    "column_name": "START_DATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payer_transitions",
+    "source_file": "data/raw/dataset_3_synthea/payer_transitions.csv",
+    "column_name": "END_DATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payer_transitions",
+    "source_file": "data/raw/dataset_3_synthea/payer_transitions.csv",
+    "column_name": "PAYER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payer_transitions",
+    "source_file": "data/raw/dataset_3_synthea/payer_transitions.csv",
+    "column_name": "SECONDARY_PAYER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payer_transitions",
+    "source_file": "data/raw/dataset_3_synthea/payer_transitions.csv",
+    "column_name": "PLAN_OWNERSHIP",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payer_transitions",
+    "source_file": "data/raw/dataset_3_synthea/payer_transitions.csv",
+    "column_name": "OWNER_NAME",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "Id",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "NAME",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "OWNERSHIP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "ADDRESS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "CITY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "STATE_HEADQUARTERED",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "ZIP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "PHONE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "AMOUNT_COVERED",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "AMOUNT_UNCOVERED",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "REVENUE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "COVERED_ENCOUNTERS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "UNCOVERED_ENCOUNTERS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "COVERED_MEDICATIONS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "UNCOVERED_MEDICATIONS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "COVERED_PROCEDURES",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "UNCOVERED_PROCEDURES",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "COVERED_IMMUNIZATIONS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "UNCOVERED_IMMUNIZATIONS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "UNIQUE_CUSTOMERS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "QOLS_AVG",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "payers",
+    "source_file": "data/raw/dataset_3_synthea/payers.csv",
+    "column_name": "MEMBER_MONTHS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "START",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "STOP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "SYSTEM",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "BASE_COST",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "REASONCODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "procedures",
+    "source_file": "data/raw/dataset_3_synthea/procedures.csv",
+    "column_name": "REASONDESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "Id",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "ORGANIZATION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "NAME",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "GENDER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "SPECIALITY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "ADDRESS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "CITY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "STATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "ZIP",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "LAT",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "LON",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "ENCOUNTERS",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "providers",
+    "source_file": "data/raw/dataset_3_synthea/providers.csv",
+    "column_name": "PROCEDURES",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "supplies",
+    "source_file": "data/raw/dataset_3_synthea/supplies.csv",
+    "column_name": "DATE",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "supplies",
+    "source_file": "data/raw/dataset_3_synthea/supplies.csv",
+    "column_name": "PATIENT",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "supplies",
+    "source_file": "data/raw/dataset_3_synthea/supplies.csv",
+    "column_name": "ENCOUNTER",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "supplies",
+    "source_file": "data/raw/dataset_3_synthea/supplies.csv",
+    "column_name": "CODE",
+    "is_identifier": true,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "supplies",
+    "source_file": "data/raw/dataset_3_synthea/supplies.csv",
+    "column_name": "DESCRIPTION",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  },
+  {
+    "dataset_name": "supplies",
+    "source_file": "data/raw/dataset_3_synthea/supplies.csv",
+    "column_name": "QUANTITY",
+    "is_identifier": false,
+    "is_synthetic": true,
+    "missing_pct_sample": "0%",
+    "source_group": "Synthea Synthetic Clinical Records"
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "raw_cms_formulary",
+      "label": "CMS Formulary Raw Flat Files",
+      "layer": "RAW",
+      "type": "cms_source"
+    },
+    {
+      "id": "raw_cms_prescriber",
+      "label": "CMS Prescriber Utilization (4GB)",
+      "layer": "RAW",
+      "type": "cms_source"
+    },
+    {
+      "id": "raw_synthea",
+      "label": "Synthea Synthetic Clinical CSVs",
+      "layer": "RAW",
+      "type": "synthea_source"
+    },
+    {
+      "id": "curated_plan",
+      "label": "PLAN Canonical Entity",
+      "layer": "CURATED",
+      "format": "parquet"
+    },
+    {
+      "id": "curated_formulary",
+      "label": "FORMULARY_DRUG Canonical Entity",
+      "layer": "CURATED",
+      "format": "parquet"
+    },
+    {
+      "id": "curated_utilization",
+      "label": "DRUG_UTILIZATION Curated Table",
+      "layer": "CURATED",
+      "format": "parquet"
+    },
+    {
+      "id": "curated_synthea",
+      "label": "SYNTHETIC_MEDICATION_HISTORY",
+      "layer": "CURATED",
+      "format": "parquet"
+    },
+    {
+      "id": "opportunity_scoring",
+      "label": "Opportunity Scoring & Prioritization Engine",
+      "layer": "ANALYTICS",
+      "type": "engine"
+    },
+    {
+      "id": "dashboard_api",
+      "label": "FastAPI Analytical Service",
+      "layer": "SERVING",
+      "type": "api"
+    },
+    {
+      "id": "react_dashboard",
+      "label": "PayerRx React Dashboard",
+      "layer": "PRESENTATION",
+      "type": "ui"
+    }
+  ],
+  "edges": [
+    {
+      "source": "raw_cms_formulary",
+      "target": "curated_plan",
+      "label": "Parse & Normalize"
+    },
+    {
+      "source": "raw_cms_formulary",
+      "target": "curated_formulary",
+      "label": "Parse & Calculate Friction"
+    },
+    {
+      "source": "raw_cms_prescriber",
+      "target": "curated_utilization",
+      "label": "DuckDB Projection & Aggregate"
+    },
+    {
+      "source": "raw_synthea",
+      "target": "curated_synthea",
+      "label": "Refill Gap & Adherence Analysis"
+    },
+    {
+      "source": "curated_formulary",
+      "target": "opportunity_scoring",
+      "label": "Formulary Friction Features"
+    },
+    {
+      "source": "curated_utilization",
+      "target": "opportunity_scoring",
+      "label": "Cost & Utilization Features"
+    },
+    {
+      "source": "curated_synthea",
+      "target": "opportunity_scoring",
+      "label": "Synthetic Adherence Features"
+    },
+    {
+      "source": "opportunity_scoring",
+      "target": "dashboard_api",
+      "label": "Precomputed Parquet Store"
+    },
+    {
+      "source": "dashboard_api",
+      "target": "react_dashboard",
+      "label": "JSON REST / WebSockets"
+    }
+  ]
+}

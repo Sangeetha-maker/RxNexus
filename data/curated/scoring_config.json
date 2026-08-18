@@ -1,0 +1,15 @@
+{
+  "weights": {
+    "cost": 0.3,
+    "utilization": 0.25,
+    "friction": 0.2,
+    "adherence": 0.15,
+    "alternative": 0.1
+  },
+  "priority_thresholds": {
+    "High": 75,
+    "Medium": 45,
+    "Low": 0
+  },
+  "methodology_disclaimer": "Prototype decision-support prioritization framework. Not official CMS methodology."
+}

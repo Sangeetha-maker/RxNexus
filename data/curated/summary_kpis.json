@@ -1,0 +1,21 @@
+{
+  "total_drugs": 3159,
+  "total_drug_spend": 226740902130.58997,
+  "total_utilization_claims": 1479628807.0,
+  "high_priority_count": 100,
+  "medium_priority_count": 2129,
+  "low_priority_count": 930,
+  "pa_opportunities_count": 1782,
+  "step_therapy_count": 1199,
+  "quantity_limit_count": 1272,
+  "high_tier_count": 1297,
+  "synthetic_adherence_risk_count": 976,
+  "average_opportunity_score": 51.9,
+  "scoring_weights": {
+    "cost": 0.3,
+    "utilization": 0.25,
+    "friction": 0.2,
+    "adherence": 0.15,
+    "alternative": 0.1
+  }
+}

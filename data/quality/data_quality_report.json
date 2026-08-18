@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-08-13T18:46:56.231392Z",
+  "data_quality_score": 74.8,
+  "quality_status": "ATTENTION_REQUIRED",
+  "total_files_processed": 33,
+  "total_rows_processed": 1243923,
+  "total_rows_rejected": 0,
+  "join_match_rate": "94.6%",
+  "missing_critical_fields": 0,
+  "dataset_scores": [
+    {
+      "dataset": "PLAN",
+      "score": 0,
+      "rows": 112294
+    },
+    {
+      "dataset": "FORMULARY_DRUG",
+      "score": 100.0,
+      "rows": 1123948
+    },
+    {
+      "dataset": "DRUG_UTILIZATION",
+      "score": 100.0,
+      "rows": 3159
+    },
+    {
+      "dataset": "SYNTHETIC_CLINICAL",
+      "score": 99.2,
+      "rows": 4522
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "DQ-PLAN-01",
+      "dataset": "PLAN",
+      "dimension": "Completeness",
+      "rule": "Primary keys contract_id and plan_id must not be null",
+      "status": "PASS",
+      "failed_count": 0,
+      "pass_rate": "100.0%"
+    },
+    {
+      "check_id": "DQ-PLAN-02",
+      "dataset": "PLAN",
+      "dimension": "Uniqueness",
+      "rule": "Natural grain (contract_id, plan_id, segment_id) must be unique",
+      "status": "FAIL",
+      "failed_count": 106776,
+      "pass_rate": "4.91%"
+    },
+    {
+      "check_id": "DQ-FORM-01",
+      "dataset": "FORMULARY_DRUG",
+      "dimension": "Validity",
+      "rule": "Tier level values must fall within valid standard range [1 - 6]",
+      "status": "WARN",
+      "failed_count": 19,
+      "pass_rate": "100.0%"
+    },
+    {
+      "check_id": "DQ-FORM-02",
+      "dataset": "FORMULARY_DRUG",
+      "dimension": "Consistency",
+      "rule": "Formulary friction score must be strictly between 0 and 100",
+      "status": "PASS",
+      "failed_count": 0,
+      "pass_rate": "100.0%"
+    },
+    {
+      "check_id": "DQ-UTIL-01",
+      "dataset": "DRUG_UTILIZATION",
+      "dimension": "Validity",
+      "rule": "Aggregated drug costs and claims must be strictly non-negative",
+      "status": "PASS",
+      "failed_count": 0,
+      "pass_rate": "100.0%"
+    },
+    {
+      "check_id": "DQ-SYN-01",
+      "dataset": "SYNTHETIC_CLINICAL",
+      "dimension": "Provenance",
+      "rule": "All synthetic records must be explicitly flagged with is_synthetic = true",
+      "status": "PASS",
+      "failed_count": 0,
+      "pass_rate": "100.0%"
+    }
+  ],
+  "summary": {
+    "passed_checks": 4,
+    "warning_checks": 1,
+    "failed_checks": 1,
+    "total_checks": 6
+  }
+}

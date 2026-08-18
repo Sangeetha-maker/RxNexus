@@ -1,0 +1,1 @@
+"""PayerRx FastAPI application."""

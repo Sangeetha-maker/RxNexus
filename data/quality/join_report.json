@@ -1,0 +1,54 @@
+[
+  {
+    "source_table": "PLAN",
+    "target_table": "FORMULARY_DRUG",
+    "join_key": "formulary_id",
+    "cardinality": "1:Many",
+    "left_records": 112294,
+    "right_records": 1123948,
+    "matched_keys": 327,
+    "total_source_keys": 329,
+    "match_rate": "99.4%",
+    "status": "VALIDATED_AUTHORITATIVE",
+    "notes": "Direct CMS Medicare Part D formulary-to-plan association."
+  },
+  {
+    "source_table": "PLAN",
+    "target_table": "BENEFICIARY_COST",
+    "join_key": "contract_id + plan_id",
+    "cardinality": "1:Many",
+    "left_records": 112294,
+    "right_records": 172463,
+    "matched_keys": 5048,
+    "total_source_keys": 5074,
+    "match_rate": "99.5%",
+    "status": "VALIDATED_AUTHORITATIVE",
+    "notes": "Plan tier-level cost-sharing structure."
+  },
+  {
+    "source_table": "SYNTHETIC_PATIENT",
+    "target_table": "SYNTHETIC_MEDICATION_HISTORY",
+    "join_key": "patient_id",
+    "cardinality": "1:Many",
+    "left_records": 108,
+    "right_records": 4522,
+    "matched_keys": 105,
+    "total_source_keys": 108,
+    "match_rate": "97.2%",
+    "status": "VALIDATED_SYNTHETIC",
+    "notes": "Synthetic patient clinical timeline linkage. Explicitly marked synthetic."
+  },
+  {
+    "source_table": "DRUG_UTILIZATION_SUMMARY",
+    "target_table": "FORMULARY_DRUG",
+    "join_key": "RxCUI / NDC / Normalized Brand-Generic Name",
+    "cardinality": "Many:Many",
+    "left_records": 3159,
+    "right_records": 1123948,
+    "matched_keys": 3218,
+    "total_source_keys": 4120,
+    "match_rate": "78.1%",
+    "status": "CONTROLLED_DECISION_SUPPORT_CROSSWALK",
+    "notes": "Normalized pharmacological name and RxNorm crosswalk for opportunity prioritization."
+  }
+]

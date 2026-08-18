@@ -1,0 +1,7 @@
+table,column,usage,relationship_note
+08_opportunity_features,Opportunity_Score,Top opportunity ranking,Uses only enabled/validated components
+02_prescriber_drug,Cost_Per_Claim,Cost distribution,CMS prescriber x drug grain
+03_formulary_drug,PA_Friction_Flag,Formulary context,Relate through approved drug_crosswalk only
+drug_crosswalk,review_status,Mapping governance,Filter to approved; show match method and authoritative source
+07_patient_medication_history,Synthetic_Patient_Data,Synthetic demo labeling,Must remain disconnected from CMS facts
+dataset2_annual_benchmark,Calendar Year,Annual context,Do not join to detailed facts

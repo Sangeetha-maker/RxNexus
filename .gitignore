@@ -1,0 +1,47 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+
+# Python Virtual Environments & Caches
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.venv-1/
+backend/venv/
+
+# Node.js & Frontend Build Artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+build/
+.pnpm-store/
+
+# Large Datasets, Raw CMS Files & DB Snapshots
+data/*.csv
+data/raw/
+data/.quantiles.sqlite
+*.sqlite
+*.db
+
+# Temporary & Test Files
+.test-deps/
+.test-tmp/
+*.log
+
+# Large Archives & Binaries
+frontend.zip
+*.zip
+*.tar.gz
+*.rar
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
