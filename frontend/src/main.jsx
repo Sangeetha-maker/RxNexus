@@ -325,8 +325,8 @@ function App() {
     if (activeTab === 'opportunities') fetchOpportunities();
     if (activeTab === 'friction') fetchFriction();
     if (activeTab === 'adherence') fetchAdherence();
-    if (activeTab === 'simulation') handleRunAnalysis();
   }, [activeTab]);
+
 
   const fetchDashboard = async () => {
     try {
@@ -523,9 +523,6 @@ function App() {
           <li className={`nav-item ${activeTab === 'opportunities' ? 'active' : ''}`} onClick={() => setActiveTab('opportunities')}>
             <Layers size={18} /> <span>2. Opportunities</span>
           </li>
-          <li className={`nav-item ${activeTab === 'simulation' ? 'active' : ''}`} onClick={() => { setActiveTab('simulation'); setSelectedOpp(null); }}>
-            <TrendingUp size={18} /> <span>3. What-if Simulation</span>
-          </li>
           <li className={`nav-item ${activeTab === 'dashboard' ? 'active' : ''}`} onClick={() => { setActiveTab('dashboard'); setSelectedOpp(null); }}>
             <LayoutDashboard size={18} /> <span>Executive Dashboard</span>
           </li>
@@ -561,13 +558,13 @@ function App() {
             <h1>
               {activeTab === 'setup' && 'Analysis Setup & Business Objective Console'}
               {activeTab === 'opportunities' && 'Ranked Opportunity Explorer'}
-              {activeTab === 'simulation' && 'What-if Policy Simulation Workspace'}
               {activeTab === 'dashboard' && 'Executive Payer Pharmacy Dashboard'}
               {activeTab === 'friction' && 'Formulary Friction & Restriction View'}
               {activeTab === 'adherence' && 'Population Adherence Signals (Synthea)'}
               {activeTab === 'assistant' && 'Grounded AI Decision Copilot'}
               {activeTab === 'audit' && 'Clinical Review & Audit Decision Log'}
             </h1>
+
             <p>Insurer Interface: Business Objectives → Analysis → Evidence → Pharmacist Review</p>
           </div>
 
@@ -893,98 +890,10 @@ function App() {
           )}
 
           {/* ─────────────────────────────────────────────────────────────
-              TAB 3: WHAT-IF SIMULATION (PDF SECTION 7)
-              ───────────────────────────────────────────────────────────── */}
-          {activeTab === 'simulation' && (
-            <div className="card-panel">
-              <div className="panel-header">
-                <div>
-                  <h3 className="panel-title">What-If Policy Simulation Workspace</h3>
-                  <p className="panel-sub">Simulate prospective formulary policy changes and observe before vs after rank shifts in under 45 milliseconds.</p>
-                </div>
-                <button className="btn btn-primary" onClick={handleRunAnalysis}>
-                  <Zap size={14} /> Recalculate Simulation
-                </button>
-              </div>
-
-              {/* Sliders Grid */}
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '14px', background: '#f8fafc', padding: '16px', borderRadius: '8px', marginBottom: '20px' }}>
-                <div className="slider-group">
-                  <div className="slider-header"><span>Cost Weight:</span> <b>{Math.round(weights.cost * 100)}%</b></div>
-                  <input type="range" min="0" max="1" step="0.05" value={weights.cost} onChange={(e) => handleWeightChange('cost', e.target.value)} className="custom-range" />
-                </div>
-                <div className="slider-group">
-                  <div className="slider-header"><span>Utilization Weight:</span> <b>{Math.round(weights.utilization * 100)}%</b></div>
-                  <input type="range" min="0" max="1" step="0.05" value={weights.utilization} onChange={(e) => handleWeightChange('utilization', e.target.value)} className="custom-range" />
-                </div>
-                <div className="slider-group">
-                  <div className="slider-header"><span>Friction Weight:</span> <b>{Math.round(weights.friction * 100)}%</b></div>
-                  <input type="range" min="0" max="1" step="0.05" value={weights.friction} onChange={(e) => handleWeightChange('friction', e.target.value)} className="custom-range" />
-                </div>
-                <div className="slider-group">
-                  <div className="slider-header"><span>Adherence Weight:</span> <b>{Math.round(weights.adherence * 100)}%</b></div>
-                  <input type="range" min="0" max="1" step="0.05" value={weights.adherence} onChange={(e) => handleWeightChange('adherence', e.target.value)} className="custom-range" />
-                </div>
-                <div className="slider-group">
-                  <div className="slider-header"><span>Alternative Weight:</span> <b>{Math.round(weights.alternative * 100)}%</b></div>
-                  <input type="range" min="0" max="1" step="0.05" value={weights.alternative} onChange={(e) => handleWeightChange('alternative', e.target.value)} className="custom-range" />
-                </div>
-              </div>
-
-              {/* Before vs After Table */}
-              <div className="data-table-container">
-                <table className="data-table">
-                  <thead>
-                    <tr>
-                      <th>Drug Name</th>
-                      <th>Baseline Score</th>
-                      <th>Simulated Score</th>
-                      <th>Score Delta</th>
-                      <th>Projected Rank Shift</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {opportunities.slice(0, 8).map((opp, idx) => {
-                      const simScore = Math.min(100, Math.max(10, Math.round(
-                        (opp.cost_score || 70) * weights.cost +
-                        (opp.utilization_score || 60) * weights.utilization +
-                        (opp.friction_score || 50) * weights.friction +
-                        (opp.adherence_score || 40) * weights.adherence +
-                        (opp.alternative_score || 60) * weights.alternative
-                      )));
-                      const delta = simScore - opp.overall_score;
-                      return (
-                        <tr key={opp.opportunity_id}>
-                          <td><b>{opp.brand_name}</b> <span style={{ color: '#64748b', fontSize: '11px' }}>({opp.generic_name})</span></td>
-                          <td><b>{opp.overall_score} pts</b></td>
-                          <td><b style={{ color: 'var(--primary)' }}>{simScore} pts</b></td>
-                          <td>
-                            <span className={`badge ${delta > 0 ? 'rose' : delta < 0 ? 'emerald' : 'neutral'}`}>
-                              {delta > 0 ? `+${delta}` : delta} pts
-                            </span>
-                          </td>
-                          <td>
-                            {delta > 0 ? (
-                              <span style={{ color: 'var(--rose-500)', fontWeight: '600' }}>↑ Moved Up Priority</span>
-                            ) : delta < 0 ? (
-                              <span style={{ color: 'var(--emerald-500)', fontWeight: '600' }}>↓ Lowered Priority</span>
-                            ) : (
-                              <span style={{ color: '#64748b' }}>— Unchanged</span>
-                            )}
-                          </td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          )}
-
-          {/* ─────────────────────────────────────────────────────────────
-              TAB 4: EXECUTIVE DASHBOARD
+              TAB 3: EXECUTIVE DASHBOARD
               ───────────────────────────────────────────────────────────── */}
           {activeTab === 'dashboard' && (
+
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
               <div className="kpi-grid">
                 <div className="kpi-card">
