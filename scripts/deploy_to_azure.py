@@ -38,7 +38,16 @@ def create_zip():
                     arcname = full_path.relative_to(ROOT_DIR)
                     zipf.write(full_path, arcname)
 
-        # 3. Include top-level files
+        # 3. Include frontend/dist (compiled static SPA)
+        frontend_dist = ROOT_DIR / "frontend" / "dist"
+        if frontend_dist.exists():
+            for root, _, files in os.walk(frontend_dist):
+                for file in files:
+                    full_path = Path(root) / file
+                    arcname = full_path.relative_to(ROOT_DIR)
+                    zipf.write(full_path, arcname)
+
+        # 4. Include top-level files
         for f in ["app.py", "startup.sh", "requirements.txt", ".env"]:
             file_path = ROOT_DIR / f
             if file_path.exists():

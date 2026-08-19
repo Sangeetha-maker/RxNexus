@@ -14,6 +14,8 @@ from pathlib import Path
 from typing import Dict, Any, List, Optional
 from fastapi import FastAPI, HTTPException, Query, Body
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 from backend.models import HealthResponse, ScoreSimulationRequest, ReviewActionRequest, AssistantQueryRequest
 from backend.services import data_service
@@ -49,8 +51,15 @@ app.add_middleware(
 
 
 
+FRONTEND_DIST = ROOT_DIR / "frontend" / "dist"
+if (FRONTEND_DIST / "assets").exists():
+    app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="assets")
+
+
 @app.get("/")
 def get_root():
+    if (FRONTEND_DIST / "index.html").exists():
+        return FileResponse(FRONTEND_DIST / "index.html")
     return {
         "message": "PayerRx Optimizer Decision-Support API is running",
         "version": "1.0.0",
@@ -257,3 +266,17 @@ def get_methodology():
             ]
         }
     }
+
+
+@app.get("/{full_path:path}")
+async def serve_spa(full_path: str):
+    # Exclude system and API paths
+    if full_path.startswith("api/") or full_path in ["docs", "redoc", "openapi.json", "favicon.ico"]:
+        raise HTTPException(status_code=404, detail=f"Endpoint /{full_path} not found")
+    
+    file_path = FRONTEND_DIST / full_path
+    if file_path.is_file():
+        return FileResponse(file_path)
+    if (FRONTEND_DIST / "index.html").exists():
+        return FileResponse(FRONTEND_DIST / "index.html")
+    raise HTTPException(status_code=404, detail="Resource not found")
