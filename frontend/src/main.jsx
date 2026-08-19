@@ -1060,7 +1060,7 @@ function App() {
                         <th style={{ width: '32%' }}>Chronic Therapy / Medication Class</th>
                         <th style={{ width: '13%' }}>Monitored Patients</th>
                         <th style={{ width: '13%' }}>Avg Refill Delay</th>
-                        <th style={{ width: '14%' }}>Patients with Gaps</th>
+                        <th style={{ width: '14%' }}>Refill Gap Events</th>
                         <th style={{ width: '14%' }}>Compliance Risk</th>
                         <th style={{ width: '14%' }}>Star Rating Impact</th>
                       </tr>
@@ -1080,7 +1080,7 @@ function App() {
                             <td style={{ wordBreak: 'break-word', whiteSpace: 'normal' }}><b>{name}</b></td>
                             <td>{formatNumber(m.patient_count)} patients</td>
                             <td><b>{avgGap} Days</b></td>
-                            <td><span className="badge rose">{m.high_gap_patients || 12} Patients</span></td>
+                            <td><span className="badge rose">{m.high_gap_patients || 12} Gap Events</span></td>
                             <td>
                               <span className={`badge ${avgGap > 25 ? 'rose' : avgGap > 20 ? 'amber' : 'emerald'}`}>
                                 {avgGap > 25 ? 'High Risk (<80% PDC)' : 'Moderate Gap'}
