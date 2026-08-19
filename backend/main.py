@@ -58,8 +58,6 @@ if (FRONTEND_DIST / "assets").exists():
 
 @app.get("/")
 def get_root():
-    if (FRONTEND_DIST / "index.html").exists():
-        return FileResponse(FRONTEND_DIST / "index.html")
     return {
         "message": "PayerRx Optimizer Decision-Support API is running",
         "version": "1.0.0",

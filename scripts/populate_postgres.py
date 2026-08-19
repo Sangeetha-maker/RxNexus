@@ -19,8 +19,8 @@ SCHEMA_SQL = ROOT_DIR / "models" / "schema.sql"
 
 # Determine DB URL
 DB_URL = os.getenv(
-    "LOCAL_DATABASE_URL",
-    os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/rxnexus_db")
+    "DATABASE_URL",
+    os.getenv("LOCAL_DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/rxnexus_db")
 )
 
 def get_admin_connection():

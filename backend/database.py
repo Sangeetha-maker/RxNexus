@@ -23,8 +23,8 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT_DIR / ".env")
 
 DB_URL = os.getenv(
-    "LOCAL_DATABASE_URL",
-    os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/rxnexus_db")
+    "DATABASE_URL",
+    os.getenv("LOCAL_DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/rxnexus_db")
 )
 
 def get_connection():

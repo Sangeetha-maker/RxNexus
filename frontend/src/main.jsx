@@ -33,7 +33,7 @@ import {
 } from 'lucide-react';
 import './styles.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API = import.meta.env.VITE_API_URL || (import.meta.env.DEV ? 'http://localhost:8000' : 'https://rxnexus-backend-api.azurewebsites.net');
 
 const formatMoney = (val) => {
   if (val === null || val === undefined) return '—';
